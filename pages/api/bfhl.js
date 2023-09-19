@@ -6,11 +6,10 @@ export default function handler(req, res) {
     res.status(200).json({ operation_code: 1 });
   } else if (req.method === "POST") {
     // Handle POST request
-    const data = req.body.data; // Assuming your POST request sends JSON data
+    const data = req.body.data; 
 
-    // Your logic for processing the POST data goes here
-    // For demonstration, we'll just echo back the received data
-    const user_id = "siddhartha_singh_20BEC10020";
+    // For demonstration
+    const user_id = "siddhartha_singh_05032002";
     const email = "siddhartha.singh2020@vitbhopal.ac.in";
     const roll_number = "20BEC10020";
     const numbers = data.filter(
