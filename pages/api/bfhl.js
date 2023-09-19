@@ -10,9 +10,9 @@ export default function handler(req, res) {
 
     // Your logic for processing the POST data goes here
     // For demonstration, we'll just echo back the received data
-    const user_id = "john_doe_17091999";
-    const email = "john@xyz.com";
-    const roll_number = "ABCD123";
+    const user_id = "siddhartha_singh_20BEC10020";
+    const email = "siddhartha.singh2020@vitbhopal.ac.in";
+    const roll_number = "20BEC10020";
     const numbers = data.filter(
       (item) => typeof item === "number" || !isNaN(parseFloat(item))
     );
